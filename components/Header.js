@@ -1,13 +1,11 @@
 import React from "react";
 
-// Header with user props
-function Header({ user, setUser }){
-    return (
+function Header({ user, setUser }) {
+  return (
     <div>
-        Welcome, {user}!
-        <button onClick = {()=> setUser('')}>Log out</button>
+      Welcome, {user}!<button onClick={() => setUser("")}>Logout</button>
     </div>
-    );
+  );
 }
 
 export default Header;
