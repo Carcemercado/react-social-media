@@ -13,7 +13,7 @@ export const PostContext = React.createContext({
 function App() {
   const initialPostState = React.useContext(PostContext);
   const [state, dispatch] = React.useReducer(postReducer, initialPostState);
-  const [user, setUser] = React.useState("reed");
+  const [user, setUser] = React.useState("Carlos");
   // const [posts, setPosts] = React.useState([]);
 
   React.useEffect(() => {
